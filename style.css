@@ -1,0 +1,238 @@
+ html {
+   height: 100%;
+   width: 100%;
+ }
+
+ body {
+   background-size: cover;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-image: url("Fond_2.png");
+   background-color: #3584e4;
+   color: black;
+   background-attachment: fixed;
+ }
+
+ .corps_page {}
+
+ .titre {
+   display: flex;
+   justify-content: center;
+   max-height: 200%;
+   max-width: 250%;
+ }
+
+ #logoamu {
+   max-height: 15%;
+   max-width: 20%;
+   display: flex;
+   justify-content: flex-start;
+ }
+
+ .description {
+   display: flex;
+   justify-content: center;
+ }
+
+ /* Menu Deroulant */
+ .menuderoulant {
+   height: 15%;
+   width: 100%;
+   list-style: none;
+   padding: 0%;
+   margin: 0%;
+   position: fixed;
+   top: 0;
+   float: left;
+   display: flex;
+   flex-direction: row-reverse;
+ }
+
+ .menuderoulant li {
+   float: left;
+   width: 20%;
+ }
+
+ .menuderoulant li a:link,
+ .menuderoulant li a:visited {
+   display: block;
+   color: #FFFFFF;
+   background: #3584e4;
+   padding: 6px 10px;
+   border-right: 1px solid #FFFFFF;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ .menuderoulant li a:hover {
+   background-color: black;
+ }
+
+ .menuderoulant li a:active {
+   background-color: white;
+ }
+
+ .menuderoulant .sousmenu {
+   list-style-type: none;
+   display: none;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   position: absolute;
+ }
+
+ .menuderoulant .sousmenu li {
+   float: none;
+   margin: 0;
+   padding: 0;
+   border-top: 1px solid transparent;
+   border-right: 1px solid transparent;
+ }
+
+ .menuderoulant .sousmenu form {
+   background-color: #3584e4;
+ }
+
+ .menuderoulant .sousmenu li a:link,
+ .menuderoulant li a:visited {
+   display: block;
+   color: #FFFFFF;
+   text-decoration: dotted;
+ }
+
+ .menuderoulant .sousmenu li a:hover {
+   background-color: purple;
+ }
+
+ .menuderoulant li:hover .sousmenu {
+   display: block;
+ }
+
+ .menuderoulant .sousmenu .containerderoulant {
+   background-color: #3584e4;
+   max-width: 19.95%;
+   height: auto;
+   margin-top: -0.90%;
+ }
+
+ .menuderoulant .sousmenu .containerderoulant a:link,
+ .menuderoulant li a:visited {
+   display: block;
+   color: #FFFFFF;
+   text-decoration: dotted;
+ }
+
+ /* Promo photo */
+ .container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60%;
+   height: auto;
+   margin-left: 20%;
+   margin-right: 20%;
+   text-align: center;
+ }
+
+ .container img {
+   max-width: 10%;
+   height: auto;
+   margin-right: 10%;
+ }
+
+ .h3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 300%;
+   text-align: center;
+ }
+
+ .promo {
+   max-width: 60%;
+   height: auto;
+   margin-left: 20%;
+   margin-right: 20%;
+ }
+
+ /* Container2 */
+ .container2 {
+   background-color: #3584e4;
+   display: flex;
+   justify-content: center;
+   border-radius: 5%;
+   padding: 2%;
+   max-width: 100%;
+   max-height: 30%;
+   margin-top: 0%;
+   margin-bottom: 10%;
+   margin-left: 20%;
+   margin-right: 20%;
+   border-left-width: 20px;
+   border-left-style: solid;
+   border-bottom-width: 20px;
+   border-bottom-style: solid;
+   border-color: #f9b600;
+ }
+
+ .container2::after {
+   display: block;
+   clear: both;
+   content: "";
+ }
+
+ /* Container3 */
+ .container3 {
+   background-color: #3584e4;
+   display: flex;
+   justify-content: center;
+   padding: 2%;
+   max-width: 100%;
+   max-height: 30%;
+   margin-top: 0%;
+   margin-bottom: 10%;
+   margin-left: 0%;
+   margin-right: 0%;
+ }
+
+ .container3::after {
+   display: block;
+   clear: both;
+   content: "";
+ }
+
+ .conatiner3 h3 {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 300%;
+   text-align: center;
+   display: flex;
+ }
+
+ /* Competence */
+ .comp {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   height: auto;
+   margin-left: 25%;
+   margin-right: 25%;
+ }
+
+ /* texte */
+ .txt {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .contact {
+   color : #f9b600;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   height: auto;
+   margin-left: 25%;
+   margin-right: 25%;
+ }
